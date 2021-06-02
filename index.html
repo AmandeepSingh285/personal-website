@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Amandeep's Personal Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" style="padding-right: 30px;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  justify-content-end ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#abt">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sk">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cont">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- intro in header -->
+    <div class="Introduction">
+      <h1 style="font-size: 6rem;">Amandeep Singh</h1>
+      <br>
+      <h3 style="color: white; text-align: center;">Budding programmer | Web devoloper</h3>
+      <br>
+      <ul class="social">
+        <li class="icon">
+          <a href="https://www.linkedin.com/in/amandeep-singh-95769318b/">
+          <i class="fi-snsuxl-linkedin fi-size-xl icons" style="color: white;"></i>
+          </a>
+        </li>
+        <li class="icon">
+          <a href="mailto: mailto.amandeep.singh.28@gmail.com">
+          <i class="fi-xwsuxl-envelope-solid fi-size-xl icons" style="color: white;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <hr>
+  <!-- about section -->
+  <div class="about" id="abt">
+    <h5>About</h5>
+    <hr class="about-rule">
+    <h3 style="padding-bottom: 50px; padding-top: 3rem;">Let me introduce myself</h3>
+    <p class="text-about">
+      I am a student at National Institute of Technology Karnataka Surathkal. I am currently pursuing my B.Tech in Computer Science.
+      My primary intrest lies in C++ and Python programming. I also like to create websites.
+    </p>
+    <table id="sk" class="skill" style="text-align: center;">
+      <tr>
+        <td>
+          <h4>Skills</h4>
+          <p class="skills-text" style="width: 80%; padding-left: 30px; padding-right: 30px;">
+            I am learning new languages and frameworks on a daily basis and trying to keep up with the rapid pace of change in technology.
+            Below are the highlights of my technical skills.
+            <ul class="skill-list" style="width: 80%; padding-left: 30px; padding-right: 30px; border: 2px solid black;">
+              <li>
+                <strong>C++ programming</strong>
+                <div class="Cpp">
+                  <span>70%</span>
+                </div>
+              </li>
+              <br>
+              <li>
+                <strong>Python programming</strong>
+                <div class="python">
+                  <span>60%</span>
+                </div>
+              </li>
+              <br>
+              <li>
+                <strong>Front-end web devolopment</strong>
+                <div class="front-end">
+                  <span>50%</span>
+                </div>
+              </li>
+              <br>
+              <li>
+                <strong>C programming</strong>
+                <div class="Cp">
+                  <span>70%</span>
+                </div>
+              </li>
+              <br>
+            </ul>
+          </p>
+        </td>
+        <td>
+          <img class="abt-image" src="Computer.jpg" alt="">
+        </td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+  <!-- contact section -->
+  <h3 style="text-align: center;" id="cont">Contact me!</h3>
+  <form class="contact form-group" action="index.html" method="post" style="text-align: center;">
+    <label for="name">
+      Your Name:
+    </label>
+    <br>
+    <input type="text" name="Name: " value="" placeholder="your name" style="width: 500px;">
+    <br>
+    <label for="email">
+      Your Email Address:
+    </label>
+    <br>
+    <input type="text" name="email:" value="" placeholder="name@example.com" style="width: 500px;">
+    <br>
+    <label for="phoneNumber">
+      Your Phone Number:
+    </label>
+    <br>
+    <input type="text" name="phone number: " value="" style="width: 500px;" placeholder="your phone number">
+    <br>
+    <label for="discription">
+      Discribe why you want to contact me:
+    </label>
+    <br>
+    <textarea name="reason" rows="8" cols="80"></textarea>
+    <br>
+    <br>
+    <input class="btn" type="button" name="Submit" value="Submit">
+  </form>
+</body>
+
+</html>
